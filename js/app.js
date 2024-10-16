@@ -11,14 +11,16 @@ for (let i = 0; i < 100; i++) {
     let restoFinale5 = resto5 === 0
     let restoFinale3 = resto3 === 0
     
-    if (restoFinale5 && restoFinale3)
+    if (restoFinale5 && restoFinale3) {
         console.log("FizzBuzz")
-
-    else if (resto5 === 0) 
+    }
+    else if (resto5 === 0) {
         console.log("Fizz")
-    
-    else if (resto3 === 0)
+    }
+    else if (resto3 === 0) {
         console.log("Buzz")
-
-    else console.log(num)       
+    }
+    else {
+        console.log(num)
+    }       
 }       
